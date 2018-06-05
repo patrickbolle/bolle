@@ -8,7 +8,7 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 collections: # A list of collections the CMS should be able to edit
     - label: "Projects"
       name: "projects"
-      folder: "content/posts" # The path to the folder where the documents are stored
+      folder: "content/projects" # The path to the folder where the documents are stored
       slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
       create: true
       fields:
