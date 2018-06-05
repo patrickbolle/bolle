@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Patrick Bollenbach - Shopify Expert Web Developer</title>
+    <link>https://bolle.co/</link>
+    <description>Recent content on Patrick Bollenbach - Shopify Expert Web Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jun 2018 10:13:27 -0400</lastBuildDate>
+    
+	<atom:link href="https://bolle.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mama Muse</title>
+      <link>https://bolle.co/projects/mama-muse/</link>
+      <pubDate>Tue, 05 Jun 2018 10:13:27 -0400</pubDate>
+      
+      <guid>https://bolle.co/projects/mama-muse/</guid>
+      <description>Lorem ipsum</description>
+    </item>
+    
+    <item>
+      <title>Zarabelle</title>
+      <link>https://bolle.co/projects/herbal/</link>
+      <pubDate>Tue, 05 Jun 2018 13:00:17 +0000</pubDate>
+      
+      <guid>https://bolle.co/projects/herbal/</guid>
+      <description>Lorem ipsum dolor sit amet, mea ei mazim accumsan verterem. Per tritani virtute ut, nec an duis officiis tacimates, his prompta nonumes ad. Definiebas assueverit ne nec. Stet legere admodum an vis, nullam ubique intellegebat no est, ex everti ocurreret vis. Iuvaret cotidieque ut nec, at per nominavi abhorreant scripserit, in quas homero neglegentur has.
+Nec nostro ocurreret no. Dictas adolescens dissentiunt sit ea, ei has soluta fierent. Clita commodo qui an.</description>
+    </item>
+    
+  </channel>
+</rss>
