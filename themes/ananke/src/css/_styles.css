@@ -3,3 +3,7 @@
 #TableOfContents ul li {
   margin-bottom: 1em;
 }
+
+.grow:hover {
+  z-index: 5;
+}

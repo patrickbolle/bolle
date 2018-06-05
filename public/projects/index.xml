@@ -6,10 +6,19 @@
     <description>Recent content in Projects on Patrick Bollenbach - Shopify Expert Web Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jun 2018 10:13:27 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jun 2018 10:41:42 -0400</lastBuildDate>
     
 	<atom:link href="https://bolle.co/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Willow</title>
+      <link>https://bolle.co/projects/willow/</link>
+      <pubDate>Tue, 05 Jun 2018 10:41:42 -0400</pubDate>
+      
+      <guid>https://bolle.co/projects/willow/</guid>
+      <description>Lorem</description>
+    </item>
     
     <item>
       <title>Mama Muse</title>

@@ -10,8 +10,8 @@
       <a class="f3 fw1 link dim br1 ph3 pv2 mb2 dib white bg-green" href="/contact">Get In Touch</a>
     </div>
     {{ range first 5 (where .Data.Pages "Section" "in" (slice "projects")) }}
-      <div class="fl w-50 w-25-ns">
-        <a href="{{ .URL }}" class="db aspect-ratio aspect-ratio--1x1 dim">
+      <div class="fl w-50 w-33-ns">
+        <a href="{{ .URL }}" class="db aspect-ratio aspect-ratio--1x1 grow shadow-2">
           <span role="img" aria-label="{{ .Title }}" alt="{{ .Title }}" style="background-image:url('{{ .Params.thumbnail }}');" class="bg-center cover aspect-ratio--object"></span>
         </a>
       </div>
