@@ -5,4 +5,4 @@ layout: "single"
 type: "page"
 ---
 Contact me here!
-{{< form-contact data-netlify="true" >}}
+{{< form-contact name="contact" method="POST" netlify >}}
