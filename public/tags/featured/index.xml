@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Featured on Patrick Bollenbach - Shopify Expert Web Developer</title>
+    <link>https://bolle.co/tags/featured/</link>
+    <description>Recent content in Featured on Patrick Bollenbach - Shopify Expert Web Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jun 2018 10:41:42 -0400</lastBuildDate>
+    
+	<atom:link href="https://bolle.co/tags/featured/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Willow</title>
+      <link>https://bolle.co/projects/willow/</link>
+      <pubDate>Tue, 05 Jun 2018 10:41:42 -0400</pubDate>
+      
+      <guid>https://bolle.co/projects/willow/</guid>
+      <description>Lorem</description>
+    </item>
+    
+  </channel>
+</rss>

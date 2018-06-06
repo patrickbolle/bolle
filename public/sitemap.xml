@@ -3,8 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bolle.co/projects/herbal-products-direct/</loc>
+    <lastmod>2018-06-06T14:13:17-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://bolle.co/projects/roaming-rwanda/</loc>
+    <lastmod>2018-06-06T14:11:53-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://bolle.co/projects/pure-co/</loc>
+    <lastmod>2018-06-06T14:08:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://bolle.co/projects/zerrin/</loc>
+    <lastmod>2018-06-06T14:04:34-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://bolle.co/contact/</loc>
+    <lastmod>2018-06-06T11:26:17-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://bolle.co/projects/willow/</loc>
     <lastmod>2018-06-05T10:41:42-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://bolle.co/about/</loc>
+    <lastmod>2018-06-05T10:29:45-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -30,21 +72,29 @@
   </url>
   
   <url>
-    <loc>https://bolle.co/</loc>
+    <loc>https://bolle.co/tags/featured/</loc>
     <lastmod>2018-06-05T10:41:42-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bolle.co/</loc>
+    <lastmod>2018-06-06T14:13:17-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bolle.co/projects/</loc>
-    <lastmod>2018-06-05T10:41:42-04:00</lastmod>
+    <lastmod>2018-06-06T14:13:17-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bolle.co/tags/</loc>
+    <lastmod>2018-06-05T10:41:42-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
