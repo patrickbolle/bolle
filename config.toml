@@ -28,3 +28,16 @@ enableRobotsTXT = true
   background_color_class = "bg-white"
   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number = 2
+
+[menu]
+
+  [[menu.main]]
+    identifier = "About"
+    name = "About"
+    url = "/about"
+    weight = 1
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 3

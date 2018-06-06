@@ -5,5 +5,7 @@ gallery:
   - imgSrc: /images/uploads/willow.png
     imgTitle: Homepage
 date: '2018-06-05T10:41:42-04:00'
+tags: 
+  - featured
 ---
 Lorem
