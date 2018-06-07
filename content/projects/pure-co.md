@@ -1,5 +1,6 @@
 ---
 title: Pure Co
+url: 'https://mypure.co/'
 weight: '6'
 featured: 'yes'
 thumbnail: /images/uploads/screenshot_2018-06-06-pure-co.png
