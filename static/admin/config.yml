@@ -13,7 +13,8 @@ collections: # A list of collections the CMS should be able to edit
       create: true
       fields:
       - {label: "Project Title", name: "title", widget: "string"}
-      - {label: "Featured?", name: "featured", widget: "string"}
+      - {label: "Order (Lower number displays as higher on the page)", name: "weight", widget: "string" }
+      - {label: "Featured?", name: "featured", widget: "boolean", default: false}
       - {label: "Project Image", name: "thumbnail", widget: "image"}
       - {label: "Project Description", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
