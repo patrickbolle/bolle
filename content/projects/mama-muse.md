@@ -1,5 +1,6 @@
 ---
 title: Mama Muse
+url: 'https://mama-muse.com/'
 weight: '2'
 featured: true
 thumbnail: /images/uploads/mama-muse.png
