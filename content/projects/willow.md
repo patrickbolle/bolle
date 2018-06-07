@@ -1,6 +1,6 @@
 ---
 title: Willow
-url: 'https://willowmattress.com.sg/'
+project-url: 'https://willowmattress.com.sg/'
 weight: '1'
 featured: true
 thumbnail: /images/uploads/willow.jpg

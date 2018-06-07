@@ -1,6 +1,6 @@
 ---
 title: Zarabelle
-url: 'https://www.zarabelle.com.sg/'
+project-url: 'https://www.zarabelle.com.sg/'
 weight: '3'
 featured: true
 thumbnail: /images/uploads/zarabelle.jpg
