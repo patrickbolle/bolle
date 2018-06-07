@@ -4,6 +4,14 @@
   margin-bottom: 1em;
 }
 
-.grow:hover {
-  z-index: 5;
-}
+/* @font-face {
+  font-family: "Avenir Next";
+  src: url('/static/fonts/AvenirNext-Regular.woff2') format('woff2'),
+      url('/static/fonts/AvenirNext-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+body {
+  font-family: "Lato" !important;
+} 

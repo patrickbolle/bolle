@@ -35,7 +35,7 @@ enableRobotsTXT = true
     identifier = "About"
     name = "About"
     url = "/about"
-    weight = 1
+    weight = 2
 
   [[menu.main]]
     name = "Contact"
