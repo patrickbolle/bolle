@@ -1,6 +1,7 @@
 ---
 title: Herbal Products Direct
-weight: '4'
+url: 'https://herbalproductsdirect.com.au/'
+weight: '5'
 featured: s
 thumbnail: >-
   /images/uploads/screenshot_2018-06-06-herbal-products-direct-your-australian-online-herbal-store.png
