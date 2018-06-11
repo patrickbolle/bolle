@@ -2,8 +2,8 @@
   <main class="cf pa2">
         <!-- Non Featured Projects Go Here -->
         {{ range where .Data.Pages.ByWeight "Section" "in" (slice "projects") }}
-          <div class="fl w-50 w-50-ns pa3">
-            <a href="{{ .Permalink }}" class=" grow db no-underline black shadow-5"><img class="db w-100 vh-50" src="{{ .Params.thumbnail }}"></a>
+          <div class="fl w-100 w-50-ns pa3">
+            <a href="{{ .Permalink }}" class=" grow db no-underline black shadow-5"><img class="db w-100 vh-50-ns" src="{{ .Params.thumbnail }}"></a>
           </div>
         {{ end }}
   </main>

@@ -1,7 +1,7 @@
 {{ define "main" }}
-  <article class="cf">
-    <div class="fl w-100 w-100-ns tc pt4 pb5 ph6 ">
-      <h1 class="f1 fw1 dib v-mid">
+  <article class="cf pa2 pa0-ns">
+    <div class="f4 fl-ns w-100 w-100-ns tc pt4-ns pb5-ns ph6-ns">
+      <h1 class="fw1 dib v-mid">
         I'm a <a href="https://experts.shopify.com/patrick-bollenbach" target="_blank" class="link green">Shopify Expert</a> that specializes in building unique e-commerce experiences for brands of all sizes.
       </h1>
       <h2 class="f3 fw2">
@@ -10,17 +10,17 @@
       <a class="f3 fw1 link dim br1 ph3 pv2 mb2 dib black ba" href="/projects">View All Projects</a>
       <a class="f3 fw1 link dim br1 ph3 pv2 mb2 dib white bg-green" href="/contact">Get In Touch</a>
     </div>
-    <div class="pa4" style="display:flex;justify-content:center;align-items:center;">
-      <div class="w-100 w-50-ns">
+    <div class="pa4 htc">
+      <div class="w-100 w-50-ns fix-grid">
         {{ range first 4 (where .Data.Pages "Section" "in" (slice "projects")) }}
-          <div class="fl w-50 w-50-ns pa1">
-            <a href="{{ .Permalink }}" class="grow db no-underline black shadow-5"><img class="db w-100 vh-25" src="{{ .Params.thumbnail }}"></a>
+          <div class="fl w-50 w-50-ns pa1 fix-grid-item">
+            <a href="{{ .Permalink }}" class="grow db no-underline black shadow-5"><img class="db w-100 vh-25-ns" src="{{ .Params.thumbnail }}"></a>
           </div>
         {{ end }}
       </div>
       <div class="w-100 w-50-ns pa2 siema">
         <header class="tc ph4">
-          <h1 class="f2 fw2 black-90 ">
+          <h1 class="f3 f2-ns fw2 black-90 ">
             Patrick's timeliness and ability to come up with creative solutions within Shopify's ecosystem has proven in real profits for us. He's always able to tackle our (sometimes ridiculous) requests.
           </h1>
           <h2 class="f5 f4-m f3-l fw2 black-50 mt0 lh-copy navy">
@@ -28,7 +28,7 @@
           </h2>
         </header>    
         <header class="tc ph4">
-          <h1 class="f2 fw2 black-90 ">
+          <h1 class="f3 f2-ns fw2 black-90 ">
             Patrick was fantastic from first contact.<br>He understood our problems and suggested various ways to proceed, and he always had our best interests in mind.
           </h1>
           <h2 class="f5 f4-m f3-l fw2 black-50 mt0 lh-copy navy">
@@ -36,7 +36,7 @@
           </h2>
         </header>
         <header class="tc ph4">
-          <h1 class="f2 fw2 black-90 ">
+          <h1 class="f3 f2-ns fw2 black-90 ">
               Patrick helped rebrand and take our Shopify store to the next level. He's been an integral and valuable part of our team - I'd like to recommend him but worry selfishly he wont have time for us anymore!
           </h1>
           <h2 class="f5 f4-m f3-l fw2 black-50 mt0 lh-copy navy">
