@@ -1,49 +1,20 @@
 {{ define "main" }}
   <article class="cf pa2 pa0-ns">
-    <div class="f4 fl-ns w-100 w-100-ns tc pt4-ns pb5-ns ph6-ns">
-      <h1 class="fw1 dib v-mid">
-        I'm a <a href="https://experts.shopify.com/patrick-bollenbach" target="_blank" class="link green">Shopify Expert</a> that specializes in building unique e-commerce experiences for brands of all sizes.
+    <div class="f4 fl-ns w-100 w-100-ns tl pt4-ns pb5-ns ph6-ns">
+      <h1 class="fw1 dib v-mid fw4 black-80">
+        <a href="https://experts.shopify.com/patrick-bollenbach" target="_blank" class="sl-red fw5">Shopify Expert</a> developer based out of Canada & Singapore specializing in building unique e-commerce experiences for brands of all sizes.
       </h1>
-      <h2 class="f3 fw2">
-        Store setups, theme customization, private/public app development, and more.
-      </h2><br>
-      <a class="f3 fw1 link dim br1 ph3 pv2 mb2 dib black ba" href="/projects">View All Projects</a>
-      <a class="f3 fw1 link dim br1 ph3 pv2 mb2 dib white bg-green" href="/contact">Get In Touch</a>
+      <h2 class="f2 fw1 black-70 pb4">
+        Shopify store setups, theme customization, private/public app development, and more.
+      </h2>
+      <a class="f2 link dim ba bw2  b--sl-blue ph3 pv2 mb2 dib black-90" href="/projects">View All Projects +</a>
+      <a class="f2 link dim ba bw2 ph3 pv2 mb2 dib sl-red" href="/contact">Contact</a>
     </div>
-    <div class="pa4 htc">
-      <div class="w-100 w-50-ns fix-grid">
-        {{ range first 4 (where .Data.Pages "Section" "in" (slice "projects")) }}
-          <div class="fl w-50 w-50-ns pa1 fix-grid-item">
-            <a href="{{ .Permalink }}" class="grow db no-underline black shadow-5"><img class="db w-100 vh-25-ns" src="{{ .Params.thumbnail }}"></a>
-          </div>
-        {{ end }}
-      </div>
-      <div class="w-100 w-50-ns pa2 siema">
-        <header class="tc ph4">
-          <h1 class="f3 f2-ns fw2 black-90 ">
-            Patrick's timeliness and ability to come up with creative solutions within Shopify's ecosystem has proven in real profits for us. He's always able to tackle our (sometimes ridiculous) requests.
-          </h1>
-          <h2 class="f5 f4-m f3-l fw2 black-50 mt0 lh-copy navy">
-            ― Beverly Hills Beauty Shop
-          </h2>
-        </header>    
-        <header class="tc ph4">
-          <h1 class="f3 f2-ns fw2 black-90 ">
-            Patrick was fantastic from first contact.<br>He understood our problems and suggested various ways to proceed, and he always had our best interests in mind.
-          </h1>
-          <h2 class="f5 f4-m f3-l fw2 black-50 mt0 lh-copy navy">
-            ― Robert Miller, Dissolution Information Services
-          </h2>
-        </header>
-        <header class="tc ph4">
-          <h1 class="f3 f2-ns fw2 black-90 ">
-              Patrick helped rebrand and take our Shopify store to the next level. He's been an integral and valuable part of our team - I'd like to recommend him but worry selfishly he wont have time for us anymore!
-          </h1>
-          <h2 class="f5 f4-m f3-l fw2 black-50 mt0 lh-copy navy">
-            ― HYPEBLVD
-          </h2>
-        </header>
-      </div>
-    </div>    
+
+    {{ range first 4 (where .Data.Pages.ByWeight "Section" "in" (slice "projects")) }}
+    <div class="fl w-100 w-50-ns pa3">
+      <a href="{{ .Permalink }}" class="dim db no-underline black shadow-5"><img class="db w-100 vh-50-ns" src="{{ .Params.thumbnail }}"></a>
+    </div>
+  {{ end }}
   </article>
 {{ end }}
