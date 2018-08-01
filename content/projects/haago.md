@@ -1,9 +1,9 @@
 ---
 title: Haago Hand Warmers
-project_url: 'https://haago.com'
+project-url: 'https://haago.com'
 weight: '1'
 featured: true
-thumbnail: /images/uploads/mama-muse.jpg
+thumbnail: /images/uploads/haago-ss.jpg
 date: '2018-06-05T10:13:27-04:00'
 ---
 Built in a span of 2 weeks, the Haago site was setup with an extremely modern design that focuses on their few major products, and nothing more.
