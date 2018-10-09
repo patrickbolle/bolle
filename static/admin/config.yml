@@ -19,3 +19,14 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Project Image", name: "thumbnail", widget: "image"}
       - {label: "Project Description", name: "body", widget: "markdown", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+    - label: "Blog Posts"
+      name: "posts"
+      folder: "content/posts" # The path to the folder where the documents are stored
+      slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+      create: true
+      fields:
+      - {label: "Post Title", name: "title", widget: "string"}
+      - {label: "Featured?", name: "featured", widget: "boolean", default: false}
+      - {label: "Post Image", name: "thumbnail", widget: "image"}
+      - {label: "Post Content Description", name: "body", widget: "markdown", required: true}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
