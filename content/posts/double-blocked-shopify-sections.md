@@ -17,3 +17,190 @@ Upon some research I found that this is... not really supported by Shopify secti
 Determined to sort this out I stitched together a few different Shopify forum threads and came up with the following solution (excluding the slider code itself, of course. I believe I used Slick Carousel for this site specifically) :
 
 <script src="https://gist.github.com/patrickbolle/fede359891ae5e7b19f1bd6df1427c01.js"></script>
+
+\
+This is a decent amount of code but the logistics of it are super simple. 
+
+```
+{% schema %}
+```
+
+```
+{
+```
+
+```
+  "name": "Double Hero Section Slider",
+```
+
+```
+  "blocks":
+```
+
+```
+  [
+```
+
+```
+    {
+```
+
+```
+      "type": "block-1",
+```
+
+```
+      "name": "3/4 Slider (Left)",
+```
+
+```
+      "settings": [
+```
+
+```
+        {
+```
+
+```
+          "id": "hero_banner",
+```
+
+```
+          "type": "image_picker",
+```
+
+```
+          "label": "3/4 Image"
+```
+
+```
+        },
+```
+
+```
+        {
+```
+
+```
+          "id": "hero_link",
+```
+
+```
+          "type": "url",
+```
+
+```
+          "label": "Hero Link"
+```
+
+```
+        }
+```
+
+```
+      ]
+```
+
+```
+    },
+```
+
+```
+    {
+```
+
+```
+      "type": "block-2",
+```
+
+```
+      "name": "1/4 Slider (Right)",
+```
+
+```
+      "settings": [
+```
+
+```
+        {
+```
+
+```
+          "id": "weekly_banner",
+```
+
+```
+          "type": "image_picker",
+```
+
+```
+          "label": "1/4 Image"
+```
+
+```
+        },
+```
+
+```
+        {
+```
+
+```
+          "id": "weekly_link",
+```
+
+```
+          "type": "url",
+```
+
+```
+          "label": "Weekly Link"
+```
+
+```
+        }
+```
+
+```
+      ]
+```
+
+```
+    }
+```
+
+```
+  ],
+```
+
+```
+  "presets": [
+```
+
+```
+    {
+```
+
+```
+      "category": "Advanced content",
+```
+
+```
+      "name": "Double Block Slider"
+```
+
+```
+    }
+```
+
+```
+  ]
+```
+
+```
+}
+```
+
+```
+{% endschema %}
+```
