@@ -16,4 +16,4 @@ Upon some research I found that this is... not really supported by Shopify secti
 
 Determined to sort this out I stitched together a few different Shopify forum threads and came up with the following solution (excluding the slider code itself, of course. I believe I used Slick Carousel for this site specifically) :
 
-<script src="http://gist-it.appspot.com/https://github.com/patrickbolle/shopify-snippets/blob/master/double-block-section.liquid"></script>
+<script src="https://gist.github.com/patrickbolle/fede359891ae5e7b19f1bd6df1427c01.js"></script>
