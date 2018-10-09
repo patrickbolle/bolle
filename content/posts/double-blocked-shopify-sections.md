@@ -9,4 +9,13 @@ A while back I was building out a slider component on a client's Shopify store. 
 
 Basically he wanted a 'main' slider on the left side, and a 'promo' banner on the right side. Each individually editable (with independent photos and links) and of course mobile responsive.
 
-Here is an image of what it looks like, to give you a better idea of the section : 
+Both the 3/4 image (left) and the 1/4 image (right) are independent sliders, but edited from within the same Shopify section.
+
+Here is an image of what it looks like, to give you a better idea of the section :
+
+
+![Double Shopify Section Image](/images/double-block.png)
+
+Upon some research I found that this is... not really supported by Shopify sections. Sections are meant to be code blocks that don't really mesh with one another, so this double section concept was a little bit out of the original section scope. 
+
+Determined to sort this out I stitched together a few different Shopify forum threads and came up with the following solution (excluding the slider code itself, of course. I believe I used Slick Carousel for this site specifically) :
