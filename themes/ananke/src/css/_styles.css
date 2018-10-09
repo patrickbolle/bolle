@@ -74,3 +74,5 @@ body {
 .sl-blue {
   color: #94c9d1;
 }
+
+hr.dashed { margin-top: 35px; border: 0; border-bottom: 1px dashed #ccc; background: white; }
