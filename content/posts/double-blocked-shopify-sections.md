@@ -95,7 +95,7 @@ And then on the right side of the page, we do the exact same thing, but referenc
 
 In the end, it translates to a relatively easy to use format for a client to use double blocks within the theme editor (though I wish I could make it work a bit easier for them). This is what the section now looks like in the drag-n-drop section editor : 
 
-![Double Shopify Section Image](/images/double-block-editor.png)
+![Double Shopify Section Editor](/images/double-block-editor.png)
 
 Hope that helps someone down the road, it took me a while to figure this out but it's a handy code snippet to have around. 
 
