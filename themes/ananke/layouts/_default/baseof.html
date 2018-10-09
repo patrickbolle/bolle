@@ -53,7 +53,7 @@
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-    <main class="pt5" role="main">
+    <main class="pt2 pt1-ns" role="main">
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
